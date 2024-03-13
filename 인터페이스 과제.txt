@@ -82,20 +82,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Test</title> 
+    <title>Document</title>
     <script>
-        let f = prompt("금액을 입력하세요(원) : ");
-
-        let a = Number/500;
-
-        let b = (f%500)/100;
-
-        alert(`금액 ${f}원은 500백원 동전 ${a}개와 100원 동원 ${b}개가 필요합니다`);
-       
+        let aoao = prompt("금액입력하세요: ", "")
+        alert(`${aoao}원은 500동전 ${(aoao-(aoao%500))/500}개와 100원동전${aoao%500/100}개가 필요합니다`)
     </script>
 </head>
 <body>
-
+    
 </body>
 </html>
 
